@@ -70,5 +70,5 @@ app.get('/404', (request, response) => {
 const port = process.env.PORT || 8080;
 
 app.listen(port, () => {
-	console.log(`Server is up on the port ${8080}`;
+	console.log(`Server is up on the port ${8080}`);
 });
