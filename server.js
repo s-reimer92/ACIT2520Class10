@@ -33,11 +33,13 @@ app.use((request, response, next) => {
     next();
 })
 
+/*
 app.use((request, response, next) => {
-	response.render('maintainance.hbs', {
+	response.render('maintenance.hbs', {
 		image: 'danny2.jpg'
 	})
 })
+*/
 
 app.get('/', (request, response) => {
 	// response.send('<h1>Hello Express!</h1>');
@@ -65,6 +67,8 @@ app.get('/404', (request, response) => {
 	})
 })
 
-app.listen(8080, () => {
-	console.log('Server is up on the port 8080');
+const port = process.env.PORT || 8080;
+
+app.listen(port, () => {
+	console.log(`Server is up on the port ${8080}`;
 });
