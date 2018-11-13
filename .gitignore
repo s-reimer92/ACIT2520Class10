@@ -1,0 +1,4 @@
+.gitignore
+node_modules/
+server.log
+challenge.js
