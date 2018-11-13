@@ -58,6 +58,7 @@ app.get('/info', (request, response) => {
 		title: 'About page',
 		year: new Date().getFullYear(),
 		welcome: 'Hello! My name is Inigo Montoya. You killed my father.  Prepare to Die'
+		image: 'danny3.jpg'
 	});
 });
 
